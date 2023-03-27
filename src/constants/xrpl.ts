@@ -1,0 +1,1 @@
+export const DEFAULT_XRPL_ACCOUNT = 'rSCXRaUyg9CkzHMidE7oYETB4W2bM2se7';

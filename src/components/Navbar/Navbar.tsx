@@ -1,9 +1,9 @@
-import { ReactComponent as XrplLogo } from "assets/xrpl-logo.svg";
-import "./Navbar.css";
-import { Link } from "react-router-dom";
-import Searchbar from "components/Searchbar/Searchbar";
+import { Link } from 'react-router-dom';
+import { ReactComponent as XrplLogo } from 'assets/xrpl-logo.svg';
+import { SearchBar } from 'components/SearchBar';
+import './NavBar.css';
 
-const Navbar = () => (
+export const NavBar = () => (
     <nav className="navbar">
         <div>
             <Link to="/" className="navbar-logo">
@@ -11,7 +11,7 @@ const Navbar = () => (
             </Link>
         </div>
         <div>
-            <Searchbar
+            <SearchBar
                 placeholder="Search by Address, Ledger or Txn"
                 className="navbar-searchbar"
             />
@@ -19,5 +19,3 @@ const Navbar = () => (
         <div />
     </nav>
 );
-
-export default Navbar;

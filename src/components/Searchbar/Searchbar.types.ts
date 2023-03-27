@@ -1,6 +1,6 @@
-import { CSSProperties } from "react";
+import { CSSProperties } from 'react';
 
-export interface SearchbarProps {
+export interface SearchBarProps {
     placeholder?: string;
     className?: string;
     style?: CSSProperties;

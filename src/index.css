@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body,
 div,
@@ -91,8 +95,13 @@ html {
     background-color: #000000;
     color: #ffffff;
     font-size: 16px;
-    font-family: currency_symbols, Work Sans, system-ui, Segoe UI, Roboto,
-        Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    font-family: currency_symbols, Work Sans, system-ui, Segoe UI, Roboto, Oxygen-Sans, Ubuntu,
+        Cantarell, Helvetica Neue, sans-serif;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: local('Work Sans'), local('WorkSans'), url(./fonts/WorkSans-Regular.ttf) format('truetype');
 }
 
 @media (max-width: 768px) {
